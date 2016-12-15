@@ -1,5 +1,7 @@
+//loading in req modules
 var React = require('react')
 
+//creating a modal-box when user types something, idea of similair app that was build. 
 var ErrorModal = React.createClass({
 		getDefaultProps: function() {
 			return {
