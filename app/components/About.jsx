@@ -1,3 +1,4 @@
+// loading in modules required
 var React = require('react')
 
 // var About = React.createClass({
@@ -9,7 +10,7 @@ var React = require('react')
 // })
 
 // new stateless rendering function 
-
+// The about page gets only rendered into the main.jsx, this is why it doesn render something it self.
 var About = (props) => {
 	
 	return (
